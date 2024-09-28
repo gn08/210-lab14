@@ -10,15 +10,15 @@ class Color{
 
     public:
         void red(){
-            red = 
+            red = r;
         }
 
         void green(){
-
+            green = r;
         }
 
         void blue(){
-
+            blue = b;
         }
 }
 
