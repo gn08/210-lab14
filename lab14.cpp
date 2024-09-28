@@ -9,16 +9,28 @@ class Color{
         int blue;
 
     public:
-        void red(){
+        void red(int r){
             red = r;
         }
 
-        void green(){
-            green = r;
+        void green(int g){
+            green = g;
         }
 
-        void blue(){
+        void blue(int b){
             blue = b;
+        }
+
+        int get_red() const{
+
+        }
+
+        int get_green() const{
+
+        }
+
+        int get_blue() const{
+            
         }
 }
 
