@@ -22,15 +22,15 @@ class Color{
         }
 
         int get_red() const{
-
+            return red;
         }
 
         int get_green() const{
-
+            return green;
         }
 
         int get_blue() const{
-            
+            return blue;
         }
 }
 
