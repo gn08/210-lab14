@@ -44,5 +44,9 @@ int main(){
     color.set_red(50);
     color.set_green(100);
     color.set_blue(200);
+
+    cout << "Red Value: " << color.get_red() << endl;
+    cout << "Green Value: " << color.get_green() << endl;
+
 }
 
