@@ -38,9 +38,10 @@ class Color{
                 << "Green: " << green << endl 
                 << "Blue: " << blue << endl;     
         }
-}
+};
 
 int main(){
+
     color.set_red(50);
     color.set_green(100);
     color.set_blue(200);
@@ -48,7 +49,8 @@ int main(){
     cout << "Red Value: " << color.get_red() << endl;
     cout << "Green Value: " << color.get_green() << endl;
     cout << "Blue Value: " << color.get_blue() << endl;
-    cout << "Color" << color.print();
+    cout << "Color" << endl;
+    color.print();
 
     return 0;
 }
