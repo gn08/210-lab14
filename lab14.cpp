@@ -9,15 +9,15 @@ class Color{
         int blue;
 
     public:
-        void red(int r){
+        void set_red(int r){
             red = r;
         }
 
-        void green(int g){
+        void set_green(int g){
             green = g;
         }
 
-        void blue(int b){
+        void set_blue(int b){
             blue = b;
         }
 
@@ -41,6 +41,8 @@ class Color{
 }
 
 int main(){
-    
+    color.set_red();
+    color.set_green();
+    color.set_blue();
 }
 
