@@ -47,6 +47,9 @@ int main(){
 
     cout << "Red Value: " << color.get_red() << endl;
     cout << "Green Value: " << color.get_green() << endl;
+    cout << "Blue Value: " << color.get_blue() << endl;
+    cout << "Color" << color.print();
 
+    return 0;
 }
 
