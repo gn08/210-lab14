@@ -41,7 +41,8 @@ class Color{
 };
 
 int main(){
-
+    Color color;
+    
     color.set_red(50);
     color.set_green(100);
     color.set_blue(200);
