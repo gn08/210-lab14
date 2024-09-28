@@ -32,5 +32,15 @@ class Color{
         int get_blue() const{
             return blue;
         }
+
+        void print () const{
+            cout << "Red: " << red << endl
+                << "Green: " << green << endl 
+                << "Blue: " << blue << endl;     
+        }
+}
+
+int main(){
+    
 }
 
