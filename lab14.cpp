@@ -28,14 +28,21 @@ class Color{
         int blue;
 
     public:
+    // set_red() sets red part of color
+    // arguments: r is integer value representing color hue
+    // returns: void
         void set_red(int r){
             red = r;
         }
-
+    // set_green() sets green part of color
+    // arguments: g is integer value representing color hue
+    // returns: void
         void set_green(int g){
             green = g;
         }
-
+    // set_blue() sets blue part of color b
+    // arguments: is integer value representing color hue
+    // returns: void
         void set_blue(int b){
             blue = b;
         }
