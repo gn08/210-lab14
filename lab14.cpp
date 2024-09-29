@@ -6,19 +6,21 @@
 // |-green: int
 // |-blue: int
 // ----------------------------------------------------
-// |+ set_red (int r): void
-// |+ set_green (int g): void
-// |+ set_blue (int b): void
-// |+ get_red (): int
-// |+ get_green ()
-// |+ get_blue
-
+// |+ set_red (int r): void                           |
+// |+ set_green (int g): void                         |
+// |+ set_blue (int b): void                          |
+// |+ get_red (): int                                 |
+// |+ get_green (): int                               |
+// |+ get_blue (): int                                |
+// |+ print(): void                                   |
+// ----------------------------------------------------
 
 
 
 #include <iostream>
 using namespace std;
 
+// class for color of red, green, and blue
 class Color{
     private:
         int red;
