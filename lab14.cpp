@@ -6,9 +6,12 @@
 // |-green: int
 // |-blue: int
 // ----------------------------------------------------
-// |+ set_red (int r): void                           |
-// |+ set_green (int g): void                         |
-// |+ set_blue (int b): void                          |
+// |+ Color()                                         |
+// |+ Color(r: int, g: int, b:int)                    |
+// |+ Color(g: int, b: int)                           |
+// |+ set_red(r: int): void                           |
+// | + set_green(g: int): void                        |
+// | + set_blue(b: int): void                         |
 // |+ get_red (): int                                 |
 // |+ get_green (): int                               |
 // |+ get_blue (): int                                |
@@ -28,8 +31,11 @@ class Color{
         int blue;
 
     public:
+    //default constructor
     Color(): red(0), green(0), blue(0) {}
+    //parameterized constructor
     Color (int r, int g, int b): red(r), green(g), blue(b) {}
+    // partial constructor
     Color (int g, int b): red(0), green(g), blue(b) {}
 
     // set_red() sets red part of color
