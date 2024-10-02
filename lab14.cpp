@@ -28,6 +28,9 @@ class Color{
         int blue;
 
     public:
+    Color(): red(0), green(0), blue(0) {}
+    Color (): red(), green(), blue() {}
+
     // set_red() sets red part of color
     // arguments: r is integer value representing color hue
     // returns: void
