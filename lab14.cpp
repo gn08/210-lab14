@@ -30,7 +30,7 @@ class Color{
     public:
     Color(): red(0), green(0), blue(0) {}
     Color (int r, int g, int b): red(r), green(g), blue(b) {}
-    Color (int g, int b): green(g), blue(b) {}
+    Color (int g, int b): red(0), green(g), blue(b) {}
 
     // set_red() sets red part of color
     // arguments: r is integer value representing color hue
@@ -75,10 +75,13 @@ class Color{
 };
 
 int main(){
-    Color deafault_color;
+    //set color object for default color
+    Color default_color;
+    //parameterized constructor
     Color paramterized_color(50, 100, 200);
-    Color partial_color(200, 0)
-    
+    //partial constructor
+    Color partial_color(200, 0);
+    //output colors
     cout << "Default color: " << endl;
     default_color.print();
     cout << "Parameterized color: " << endl;
