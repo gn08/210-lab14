@@ -75,18 +75,16 @@ class Color{
 };
 
 int main(){
-    //color object: color
-    Color color;
-    //set color values
-    color.set_red(50);
-    color.set_green(100);
-    color.set_blue(200);
-    //output color values
-    cout << "Red Value: " << color.get_red() << endl;
-    cout << "Green Value: " << color.get_green() << endl;
-    cout << "Blue Value: " << color.get_blue() << endl;
-    cout << "Color" << endl;
-    color.print();
+    Color deafault_color;
+    Color paramterized_color(50, 100, 200);
+    Color partial_color(200, 0)
+    
+    cout << "Default color: " << endl;
+    default_color.print();
+    cout << "Parameterized color: " << endl;
+    paramterized_color.print();
+    cout << "Partial color: " << endl;
+    partial_color.print();
 
     return 0;
 }
